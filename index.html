@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hello world. I am Trịnh Anh Ngọc.">
+    <title>Trịnh Anh Ngọc</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            max-width: 992px;
+            min-width: 400px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        img {
+            border-radius: 100%;
+            padding: 6px;
+            background-color: white;
+            box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.1);
+        }
+
+        img:hover {
+            box-shadow: 0px 0px 3px 1px purple !important;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        #main {
+            width: 400px;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            border-radius: 100%;
+            box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.1);
+        }
+
+        #soict {
+            left: -38px;
+            top: 224px;
+        }
+
+        #tvtma {
+            left: 72px;
+            top: -25px;
+        }
+
+        #viindoo {
+            left: 352px;
+            top: 82px;
+        }
+
+        #odoo-ide {
+            left: 240px;
+            top: 340px;
+        }
+
+        .place {
+            position: absolute;
+        }
+
+        .focus {
+            box-shadow: 0px 0px 3px 1px forestgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="me">
+            <a href="https://github.com/trinhanhngoc" target="_blank">
+                <img src="images/trinhanhngoc.jpg" alt="Trịnh Anh Ngọc" width="256" height="256">
+            </a>
+        </div>
+
+        <div id="soict" class="place">
+            <a href="https://soict.hust.edu.vn" target="_blank">
+                <img src="images/soict.png" alt="School of Information and Communication Technology" width="72"
+                    height="72">
+            </a>
+        </div>
+
+        <div id="tvtma" class="place">
+            <a href="https://tvtmarine.com" target="_blank">
+                <img src="images/tvtma.png" alt="T.V.T Marine Automation" width="72" height="72">
+            </a>
+        </div>
+
+        <div id="viindoo" class="place">
+            <a href="https://viindoo.com" target="_blank">
+                <img src="images/viindoo.svg" alt="Viindoo" width="72" height="72">
+            </a>
+        </div>
+
+        <div id="odoo-ide" class="place">
+            <a href="https://github.com/odoo-ide" target="_blank">
+                <img src="images/odoo-ide.svg" alt="Odoo IDE" width="72" height="72" class="focus">
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
